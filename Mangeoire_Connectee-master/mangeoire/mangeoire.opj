@@ -1,0 +1,138 @@
+(ExpressProject "mangeoire"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "..\lib\capture\pomad.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\mangeoire.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (OFFPAGELEFT-L
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (D1N4148
+      (FullPartName "D1N4148.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\DIODE.OLB")
+      (DeviceIndex "0"))
+    (NX3008N
+      (FullPartName "NX3008N.Normal")
+      (LibraryName "C:\USERS\LAURENT\DOCUMENTS\CADENCE\LIB\CAPTURE\POMAD.OLB")
+      (DeviceIndex "0"))
+    (CON2
+      (FullPartName "CON2.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (AD623
+      (FullPartName "AD623.Normal")
+      (LibraryName "C:\USERS\LAURENT\DOCUMENTS\CADENCE\LIB\CAPTURE\POMAD.OLB")
+      (DeviceIndex "0"))
+    (L80_M39
+      (FullPartName "L80_M39.Normal")
+      (LibraryName "C:\USERS\LAURENT\DOCUMENTS\CADENCE\LIB\CAPTURE\POMAD.OLB")
+      (DeviceIndex "0"))
+    (SPBTLE-RF0
+      (FullPartName "SPBTLE-RF0.Normal")
+      (LibraryName "C:\USERS\LAURENT\DOCUMENTS\CADENCE\LIB\CAPTURE\POMAD.OLB")
+      (DeviceIndex "0"))
+    (SPBTLE-1S
+      (FullPartName "SPBTLE-1S.Normal")
+      (LibraryName "C:\USERS\LAURENT\DOCUMENTS\CADENCE\LIB\CAPTURE\POMAD.OLB")
+      (DeviceIndex "0"))
+    (SPBLE-1S
+      (FullPartName "SPBLE-1S.Normal")
+      (LibraryName "C:\USERS\LAURENT\DOCUMENTS\CADENCE\LIB\CAPTURE\POMAD.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (L
+      (FullPartName "L.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (SPV1050
+      (FullPartName "SPV1050.Normal")
+      (LibraryName "C:\USERS\LAURENT\DOCUMENTS\CADENCE\LIB\CAPTURE\POMAD.OLB")
+      (DeviceIndex "0"))
+    (TLV733P
+      (FullPartName "TLV733P.Normal")
+      (LibraryName "C:\USERS\LAURENT\DOCUMENTS\CADENCE\LIB\CAPTURE\POMAD.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (STM32L496RG
+      (FullPartName "STM32L496RG.Normal")
+      (LibraryName "C:\USERS\LAURENT\DOCUMENTS\CADENCE\LIB\CAPTURE\POMAD.OLB")
+      (DeviceIndex "0"))
+    (OV2640
+      (FullPartName "OV2640.Normal")
+      (LibraryName "C:\USERS\LAURENT\DOCUMENTS\CADENCE\LIB\CAPTURE\POMAD.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "c:\users\laurent\documents\cadence\mangeoire\mangeoire.dsn")
+      (Path "Design Resources"
+         "c:\users\laurent\documents\cadence\mangeoire\mangeoire.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources"
+         "c:\users\laurent\documents\cadence\mangeoire\mangeoire.dsn"
+         "Design Cache")
+      (Path "Design Resources" "Library")
+      (Select "Design Resources"
+         "c:\users\laurent\documents\cadence\mangeoire\mangeoire.dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 449"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 868 0 488")
+        (Scroll "0 0")
+        (Zoom "116")
+        (Occurrence "/"))
+      (Path "C:\USERS\LAURENT\DOCUMENTS\CADENCE\MANGEOIRE\MANGEOIRE.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "MCU"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 52 848 52 698")
+        (Scroll "0 0")
+        (Zoom "116")
+        (Occurrence "/"))
+      (Path "C:\USERS\LAURENT\DOCUMENTS\CADENCE\MANGEOIRE\MANGEOIRE.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PSU"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 234 1030 234 880")
+        (Scroll "0 0")
+        (Zoom "116")
+        (Occurrence "/"))
+      (Path "C:\USERS\LAURENT\DOCUMENTS\CADENCE\MANGEOIRE\MANGEOIRE.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PV"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 130 1135 130 701")
+        (Scroll "0 0")
+        (Zoom "116")
+        (Occurrence "/"))
+      (Path "C:\USERS\LAURENT\DOCUMENTS\CADENCE\MANGEOIRE\MANGEOIRE.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "Peripherals")))
+  (MPSSessionName "Laurent"))
