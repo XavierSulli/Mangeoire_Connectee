@@ -1,0 +1,135 @@
+(ExpressProject "mangeoire"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "..\lib\capture\pomad.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\mangeoire.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (OFFPAGELEFT-L
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (D1N4148
+      (FullPartName "D1N4148.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\DIODE.OLB")
+      (DeviceIndex "0"))
+    (NX3008N
+      (FullPartName "NX3008N.Normal")
+      (LibraryName "C:\USERS\LAURENT\DOCUMENTS\CADENCE\LIB\CAPTURE\POMAD.OLB")
+      (DeviceIndex "0"))
+    (CON2
+      (FullPartName "CON2.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (AD623
+      (FullPartName "AD623.Normal")
+      (LibraryName "C:\USERS\LAURENT\DOCUMENTS\CADENCE\LIB\CAPTURE\POMAD.OLB")
+      (DeviceIndex "0"))
+    (L80_M39
+      (FullPartName "L80_M39.Normal")
+      (LibraryName "C:\USERS\LAURENT\DOCUMENTS\CADENCE\LIB\CAPTURE\POMAD.OLB")
+      (DeviceIndex "0"))
+    (SPBTLE-RF0
+      (FullPartName "SPBTLE-RF0.Normal")
+      (LibraryName "C:\USERS\LAURENT\DOCUMENTS\CADENCE\LIB\CAPTURE\POMAD.OLB")
+      (DeviceIndex "0"))
+    (SPBTLE-1S
+      (FullPartName "SPBTLE-1S.Normal")
+      (LibraryName "C:\USERS\LAURENT\DOCUMENTS\CADENCE\LIB\CAPTURE\POMAD.OLB")
+      (DeviceIndex "0"))
+    (SPBLE-1S
+      (FullPartName "SPBLE-1S.Normal")
+      (LibraryName "C:\USERS\LAURENT\DOCUMENTS\CADENCE\LIB\CAPTURE\POMAD.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (L
+      (FullPartName "L.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (SPV1050
+      (FullPartName "SPV1050.Normal")
+      (LibraryName "C:\USERS\LAURENT\DOCUMENTS\CADENCE\LIB\CAPTURE\POMAD.OLB")
+      (DeviceIndex "0"))
+    (TLV733P
+      (FullPartName "TLV733P.Normal")
+      (LibraryName "C:\USERS\LAURENT\DOCUMENTS\CADENCE\LIB\CAPTURE\POMAD.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (STM32L496RG
+      (FullPartName "STM32L496RG.Normal")
+      (LibraryName "C:\USERS\LAURENT\DOCUMENTS\CADENCE\LIB\CAPTURE\POMAD.OLB")
+      (DeviceIndex "0"))
+    (OV2640
+      (FullPartName "OV2640.Normal")
+      (LibraryName "C:\USERS\LAURENT\DOCUMENTS\CADENCE\LIB\CAPTURE\POMAD.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\mangeoire.dsn")
+      (Path "Design Resources" ".\mangeoire.dsn" "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Select "Design Resources" ".\mangeoire.dsn" "SCHEMATIC1" "PV"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -9 -38 0 200 0 449"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -9 -38 64 1716 64 515")
+        (Scroll "-314 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\TANGUY\ONEDRIVE - POLYTECH MONTPELLIER\MEA S7\PROJET\MANGEOIRE\MANGEOIRE.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "MCU"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -9 -38 96 1748 96 547")
+        (Scroll "-314 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\TANGUY\ONEDRIVE - POLYTECH MONTPELLIER\MEA S7\PROJET\MANGEOIRE\MANGEOIRE.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "Peripherals"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -9 -38 128 1780 128 579")
+        (Scroll "-314 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\TANGUY\ONEDRIVE - POLYTECH MONTPELLIER\MEA S7\PROJET\MANGEOIRE\MANGEOIRE.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PSU"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -9 -38 160 1812 160 611")
+        (Scroll "-419 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\TANGUY\ONEDRIVE - POLYTECH MONTPELLIER\MEA S7\PROJET\MANGEOIRE\MANGEOIRE.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PV")))
+  (MPSSessionName "Tanguy"))
